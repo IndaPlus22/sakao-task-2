@@ -5,6 +5,7 @@ fn main() {
     let mut i1 = String::new();
     let mut i2 = String::new();
 
+    
     io::stdin().read_line(&mut i1).expect("Failed read 1");
     io::stdin().read_line(&mut i2).expect("Failed read 2");
 
